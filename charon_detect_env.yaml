@@ -1,0 +1,14 @@
+name: charon_detect_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ultralytics          # YOLOv8/YOLOv11 package for object detection
+  - pytorch              # PyTorch deep learning framework
+  - torchvision          # PyTorch vision utilities
+  - pytorch-cuda=11.8    # CUDA 11.8 support for GPU acceleration
+  - opencv               # OpenCV for image processing (cv2)
+  - pandas               # Data analysis library for CSV/XLSX output
+  - openpyxl             # Excel support for pandas
