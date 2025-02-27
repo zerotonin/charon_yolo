@@ -166,3 +166,11 @@ In the future, we will retrain the system without this mix-up, ensuring the weig
     python charon_detect.py /path/to/parent_dir --get_resultimages --output xlsx
     ```
 3. Check `detection_results.xlsx` in `parent_dir/` and annotated images in `parent_dir/annotated/`.
+
+---
+
+Author:
+
+Bart Geurten  
+[University of Otago  ](https://www.otago.ac.nz/zoology/staff/dr-bart-geurten)  
+ORCID: [https://orcid.org/0000-0002-1816-3241](https://orcid.org/0000-0002-1816-3241)
